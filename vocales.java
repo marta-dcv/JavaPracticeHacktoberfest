@@ -1,4 +1,4 @@
-public class ContarVocales {
+public class vocales {
     public static void main(String[] args) {
         String texto = "Hacktoberfest es divertido!";
         int contador = contarVocales(texto);
