@@ -7,7 +7,7 @@ function calcularEdad(fechaNacimiento) {
   if (mes < 0 || (mes === 0 && hoy.getDate() < cumple.getDate())) {
     edad--;
   }
-
+ 
   return edad; 
 }
 
