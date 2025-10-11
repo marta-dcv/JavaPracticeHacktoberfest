@@ -1,6 +1,6 @@
 public class vocales {
     public static void main(String[] args) {
-        String texto = "Hacktoberfest es divertido!";
+        String texto = "¡Hacktoberfest es divertido!";
         int contador = contarVocales(texto);
         System.out.println("Cantidad de vocales: " + contador);
     }
