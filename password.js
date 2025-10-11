@@ -13,4 +13,4 @@ function generarContrasena(longitud = 8) {
     return contraseña;
 }
 
-console.log("Contraseña generada:", generarContrasena(12));
+console.log("Contraseña generada: ", generarContrasena(12));
