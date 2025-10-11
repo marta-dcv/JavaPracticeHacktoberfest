@@ -49,7 +49,7 @@ function pedirIntento() {
             pedirIntento();
         }
     });
-}
+} 
 
 console.log(`¡Bienvenido a Wordle! Tienes ${intentosMax} intentos para adivinar la palabra de 5 letras.`);
 pedirIntento();
