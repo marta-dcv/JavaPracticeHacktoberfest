@@ -4,11 +4,11 @@ function adivinarNumero(intento) {
     if (intento === numeroSecreto) {
         return "¡Correcto! 🎉";
     } else if (intento < numeroSecreto) {
-        return "Demasiado bajo ⬇️";
+        return "Demasiado bajo ⬇️ ";
     } else {
-        return "Demasiado alto ⬆️";
+        return "Demasiado alto ⬆️ ";
     }
 }
-
+   
 
 console.log(adivinarNumero(50));
