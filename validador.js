@@ -14,9 +14,10 @@ function esEmailValido(email) {
 
 rl.question('Introduce un email para validar: ', (input) => {
   if (esEmailValido(input.trim())) {
-    console.log('✅ El email parece válido.');
+    console.log('✅ El email es válido.');
   } else {
     console.log('❌ Email inválido.');
   }
   rl.close();
 });
+ 
