@@ -5,7 +5,7 @@ public class vocales {
         System.out.println("Cantidad de vocales: " + contador);
     }
 
-    public static int contarVocales(String texto) {
+    public static int contarVocales(String texto) { 
         int total = 0;
         texto = texto.toLowerCase();
         for (int i = 0; i < texto.length(); i++) {
