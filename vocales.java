@@ -14,6 +14,6 @@ public class vocales {
                 total++;
             }
         }
-        return total;
+        return total; 
     }
 }
