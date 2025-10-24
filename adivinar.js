@@ -6,8 +6,8 @@ function adivinarNumero(intento) {
     } else if (intento < numeroSecreto) {
         return "Demasiado bajo ⬇️ ";
     } else {
-        return "Demasiado alto ⬆️ "; 
-    }
+        return "Demasiado alto ⬆️ ";  
+    } 
 }
    
 
