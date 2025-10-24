@@ -4,7 +4,7 @@ const readline = require('readline');
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout 
-});
+}); 
 
 function esEmailValido(email) {
   // Regex simple, admite la mayoría de emails comunes
