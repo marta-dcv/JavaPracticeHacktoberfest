@@ -9,6 +9,6 @@ function calcularEdad(fechaNacimiento) {
   } 
  
   return edad; 
-} 
+}  
 
 console.log("Edad:", calcularEdad("2000-10-05"), " años");
